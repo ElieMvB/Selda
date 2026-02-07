@@ -77,7 +77,7 @@ class TextManager:
             the size s (normally 1)
             xy the coords of the top lef of the text
         '''
-        if s == 1: s=8
+        if s == 1: s=8 #each character is an 8 pixels by 8 pixels
         elif s == 2: s=16
         else: s=32
         nc = (128 - xy[0]) // s
